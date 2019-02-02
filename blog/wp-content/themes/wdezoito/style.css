@@ -1,0 +1,258 @@
+body{ font-family: 'Lato' !important; }
+footer{ font-family: 'Lato' !important; }
+.col-reset{padding: 0;}
+
+.logoTopo{
+	max-width: 120px;
+	margin: 15px;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: relative;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-default .navbar-nav>li>a.active, 
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+    color: #01abeb;
+    outline: 0;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #696969;
+    font-size: 14px;
+}
+.barraTop{
+    border-top: 10px solid #01abeb;
+}
+.content{
+	margin: 50px 0;
+}
+.postTitulo{
+    font-size: 25px;
+    color: #01abeb;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+a.linkTitulo{
+	color:#01abeb;
+}
+a.linkTitulo:hover{
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+.infoTexto{
+    margin: 0 0 20px;
+    color: #858585;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.boxPost{
+	border-bottom: 1px solid #ccc;
+	display: inline-block;
+	padding-bottom: 15px;
+	margin-bottom: 25px;
+}
+.PostText{
+	line-height: 25px;
+}
+a.btnLeiaMais{
+    padding: 5px 10px;
+    float: right;
+    border-radius: 3px;
+	background-color: #01abeb;
+	color: #FFF;
+	margin: 5px 0 5px 20px;
+}
+a.btnLeiaMais:hover{
+	background-color: #23527c;
+}
+.imagemPost{
+	width: 100%;
+	height: 200px;
+	margin: 20px 0;
+	background-position: center;
+    background-size: 100%;
+}
+footer{
+	background-color: #e6e6e6;
+}
+footer .logoFooter{
+	max-width: 100px;
+	margin: 15px;
+}
+footer .iconSocial{
+    background-color: #01abeb;
+    color: #FFF;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    margin-top: 25px;
+    float:right;
+}
+footer .iconFace{
+	padding: 5px 9px;
+	margin-left: 5px;
+}
+footer .iconTwitter{
+	padding: 5px;
+	margin-left: 5px;
+}
+footer .dev img{
+	float: right;
+}
+footer .footer-escuro{
+	background-color: #303030;
+    font-weight: 700;
+    color: gray;
+    font-size: 12px;
+    padding: 25px 0 25px 12px;
+}
+
+
+.single .boxPost {
+	margin-bottom: 0;
+}
+
+.traco{
+    height: 3px;
+    width: 63px;
+    margin: 0 0 10px;
+    background-color: #01abeb;
+}
+.a2a_kit a {
+    cursor: pointer;
+    float: left;
+    margin: 2px;
+}
+
+/* estilo dos comentários */
+#comments{
+    width:100%;
+    float:left;
+} 
+#comments h3{
+    font-size:14px;
+    margin:20px 0;
+} 
+ol.commentlist{
+    list-style:none;
+    padding: 0;
+} 
+ol.commentlist li{
+    margin-bottom:30px;
+} 
+ol.commentlist ul{
+    margin:0px;
+    list-style: none;
+    padding: 0;
+} 
+.comment-meta.commentmetadata{
+    float: right;
+    bottom: 25px;
+    position: relative;
+}
+ol.commentlist ul li{
+    margin: 20px 0px 20px 40px;
+} 
+#respond{
+    margin:0 0 30px 0;
+    clear:both;
+} 
+#respond form label{
+    float:left;
+    clear:left;
+    width:60px;
+    text-align:right;
+    margin-right:10px;
+} 
+#respond form input{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #515151;
+    padding: 7px 0 7px 18px;
+    width: 100%;
+} 
+#respond form textarea{
+    float:left;
+    width:100%;
+    height:100px;
+    margin-bottom:10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #515151;
+    padding: 7px 0 7px 18px;
+} 
+#respond form input.commentsubmit{
+    float: left;
+    width: 160px;
+    padding: 10px;
+    float:right;
+    background-color: #01abeb;
+    color: #FFF;
+    border:0;
+}
+#respond form input.commentsubmit:hover{
+	background-color: #0184b6;
+}
+#respond input{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #515151;
+    padding: 7px 0 7px 18px;
+}
+
+
+/* sidebar */
+h3{
+	text-transform: uppercase;
+    font-size: 14px;	
+    color: #696969;
+    font-weight: bold;
+}
+ul.listCategorias{
+    margin: 50px 0;
+}
+ul.listCategorias,
+ul.listCategorias ul{
+	list-style: none;
+    color: #696969;
+    font-size: 14px;	
+	padding: 0;
+}
+
+ul.listCategorias li{
+	margin: 0;
+}
+.formBuscar input,
+.formBuscar select{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #515151;
+    padding: 7px 0 7px 18px;
+}
+.pageTotal{
+	float: right;
+    position: relative;
+    top: -20px;
+}
+.page-footer-perfil-img{
+    margin: 25px 40px;
+}
+
+.page-footer-perfil-text{   
+    font-size: 14px;
+    color: gray;
+    font-family: 'Myriad Pro Regular';
+    margin: 30px 0 0;
+}

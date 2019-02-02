@@ -1,0 +1,28 @@
+<files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</files>
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteRule ^cidades/cadastradas/?$ index.php?page=cidade&id=$1&cadastradas=cadastradas
+RewriteRule ^medico/especialidade/?$ index.php?page=especialidade&id=$1&action=cadMedEsp
+RewriteRule ^medico/([0-9]+)\/full?$ index.php?page=medico&id=$1&full=ok
+RewriteRule ^medico/full?$ index.php?page=medico&full=ok
+RewriteRule ^cidade/estado/([0-9]+)?$ index.php?page=cidade&estado=$1
+RewriteRule ^busca/([a-z-A-Z-0-9-\s--]+)/([0-9]+)?$ index.php?page=busca&valor=$1&cidade=$2
+RewriteRule ^busca/([a-z-A-Z-0-9-\s--]+)?$ index.php?page=busca&valor=$1
+RewriteRule ^artigo/medico/([0-9]+)/?$ index.php?page=artigo&id=$1&filter=medico
+RewriteRule ^experiencia/medico/([0-9]+)/?$ index.php?page=experiencia&id=$1&filter=medico
+RewriteRule ^social/medico/([0-9]+)/?$ index.php?page=social&id=$1&filter=medico
+RewriteRule ^consultorio/cep/([0-9\-]+)/?$ index.php?page=consultorio&cep=$1
+RewriteRule ^consultorio/cep/([0-9]+)/?$ index.php?page=consultorio&cep=$1
+RewriteRule ^pergunta/([a-z-A-Z-0-9-\s--]+)/?$ index.php?page=pergunta&busca=$1
+RewriteRule ^banner/buscar/([a-z-A-Z-0-9-\s--]+)/?$ index.php?page=banner&busca=$1
+
+RewriteRule ^([a-z_-]+)\/([0-9]+)/([a-z_-]+)?$ index.php?page=$1&id=$2&op=$3
+RewriteRule ^([a-z_-]+)\/([0-9]+)/?$ index.php?page=$1&id=$2
+RewriteRule ^([a-z_-]+)/?$ index.php?page=$1

@@ -1,0 +1,1 @@
+[21-May-2018 08:17:08 America/Chicago] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/wingovco/public_html/listamed.com.br/pagseguro/source/Domains/Requests/Redirect.php on line 25

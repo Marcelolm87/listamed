@@ -1,0 +1,83 @@
+<files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</files>
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^medico/deletar/([0-9]+)?$ index.php?page=medico&deletar=$1
+RewriteRule ^medico/editar/([0-9]+)?$ index.php?page=medico&editar=$1
+RewriteRule ^medico\/?$ index.php?page=medico
+
+RewriteRule ^page?$ index.php?page=page
+
+
+RewriteRule ^especialidade?$ index.php?page=especialidade
+RewriteRule ^especialidade/deletar/([0-9]+)?$ index.php?page=especialidade&deletar=$1
+RewriteRule ^especialidade/medico/([0-9]+)?$ index.php?page=especialidade&medico=$1
+
+RewriteRule ^pergunta?$ index.php?page=pergunta
+RewriteRule ^pergunta/deletar/([0-9]+)?$ index.php?page=pergunta&deletar=$1
+RewriteRule ^pergunta/alterar/([0-9]+)?$ index.php?page=pergunta&alterar=$1
+
+
+RewriteRule ^convenio?$ index.php?page=convenio
+RewriteRule ^convenio/deletar/([0-9]+)?$ index.php?page=convenio&deletar=$1
+RewriteRule ^convenio/medico/([0-9]+)?$ index.php?page=convenio&medico=$1
+RewriteRule ^convenio/consultorio/([0-9]+)?$ index.php?page=convenio&consultorio=$1
+
+RewriteRule ^servico?$ index.php?page=servico
+RewriteRule ^servico/deletar/([0-9]+)?$ index.php?page=servico&deletar=$1
+RewriteRule ^servico/consultorio/([0-9]+)?$ index.php?page=servico&consultorio=$1
+
+RewriteRule ^consultorio?$ index.php?page=consultorio
+RewriteRule ^consultorio/deletar/([0-9]+)?$ index.php?page=consultorio&deletar=$1
+RewriteRule ^consultorio/editar/([0-9]+)?$ index.php?page=consultorio&editar=$1
+RewriteRule ^consultorio/medico/([0-9]+)?$ index.php?page=consultorio&medico=$1
+RewriteRule ^consultorio/selecionar-medico/([0-9]+)?$ index.php?page=consultorio&consultorio=$1
+RewriteRule ^galeria/consultorio/([0-9]+)?$ index.php?page=galeria&consultorio=$1
+RewriteRule ^galeria/deletar/([0-9]+)?$ index.php?page=galeria&deletar=$1
+
+RewriteRule ^experiencia/medico/([0-9]+)?$ index.php?page=experiencia&medico=$1
+
+RewriteRule ^relatorio?$ index.php?page=relatorio
+
+RewriteRule ^banner?$ index.php?page=banner
+RewriteRule ^banner/alterar/([0-9]+)?$ index.php?page=banner&editar=$1
+
+
+
+## RewriteRule ^artigo/medico/([0-9]+)/?$ index.php?page=artigo&id=$1&filter=medico
+## RewriteRule ^experiencia/medico/([0-9]+)/?$ index.php?page=experiencia&id=$1&filter=medico
+## RewriteRule ^social/medico/([0-9]+)/?$ index.php?page=social&id=$1&filter=medico
+
+## RewriteRule ^([a-z_-]+)\/([0-9]+)/([a-z_-]+)?$ index.php?page=$1&id=$2&op=$3
+## RewriteRule ^([a-z_-]+)\/([0-9]+)/?$ index.php?page=$1&id=$2
+## RewriteRule ^([a-z_-]+)/?$ index.php?page=$1
+
+## RewriteRule ^artigo/token/([a-z,0-9]+)/medico/([0-9]+)$ index.php?page=artigo&token=$1&tb_medico_id=$2
+## RewriteRule ^artigo/([0-9]+)/token/([a-z,0-9]+)/medico/([0-9]+)$ index.php?page=artigo&id=$1&token=$2&tb_medico_id=$3
+## RewriteRule ^artigo/([0-9]+)/token/([a-z,0-9]+)$ index.php?page=artigo&id=$1&token=$2
+
+## RewriteRule ^artigo/medico/([0-9]+)/?$ index.php?page=artigo&id=$1&filter=medico
+## RewriteRule ^artigo/token/([a-z,0-9]+)/?$ index.php?page=artigo&token=$1
+## RewriteRule ^artigo/([0-9]+)$ artigo.php?page=artigo&id=$1
+
+## RewriteRule ^([a-z_-]+)\/([0-9]+)\/token/([a-z,0-9]+)$ index.php?page=$1&id=$2&token=$3
+## RewriteRule ^([a-z_-]+)\/([0-9]+)/([a-z_-]+)?$ index.php?page=$1&id=$2&op=$3
+## RewriteRule ^([a-z_-]+)\/token\/([a-z,0-9]+)$ index.php?page=$1&token=$2
+## RewriteRule ^([a-z_-]+)\/([0-9]+)/?$ index.php?page=$1&id=$2
+## RewriteRule ^([a-z_-]+)/?$ index.php?page=$1
+
+## RewriteRule ^teste/?$ teste.php
+## RewriteRule ^teste2/?$ teste2.php
+## RewriteRule ^experiencia/medico/([0-9]+)/?$ index.php?page=experiencia&id=$1&filter=medico
+## RewriteRule ^social/medico/([0-9]+)/?$ index.php?page=social&id=$1&filter=medico
+
+# Use PHPstable as default
+AddHandler application/x-httpd-php-stable .php
+<IfModule mod_suphp.c>
+    suPHP_ConfigPath /opt/phpstable/lib
+</IfModule>

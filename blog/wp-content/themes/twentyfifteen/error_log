@@ -1,0 +1,7 @@
+[05-May-2018 08:20:24 America/Chicago] PHP Fatal error:  Call to undefined function the_ID() in /home/wingovco/public_html/listamed.com.br/blog/wp-content/themes/twentyfifteen/content.php on line 13
+[05-May-2018 13:18:36 America/Chicago] PHP Fatal error:  Call to undefined function the_ID() in /home/wingovco/public_html/listamed.com.br/blog/wp-content/themes/twentyfifteen/content.php on line 13
+[05-May-2018 13:18:38 America/Chicago] PHP Fatal error:  Call to undefined function do_action() in /home/wingovco/public_html/listamed.com.br/blog/wp-content/themes/twentyfifteen/footer.php on line 23
+[07-May-2018 13:05:37 America/Chicago] PHP Fatal error:  Call to undefined function do_action() in /home/wingovco/public_html/listamed.com.br/blog/wp-content/themes/twentyfifteen/footer.php on line 23
+[07-May-2018 13:05:41 America/Chicago] PHP Fatal error:  Call to undefined function do_action() in /home/wingovco/public_html/listamed.com.br/blog/wp-content/themes/twentyfifteen/footer.php on line 23
+[08-May-2018 11:18:14 America/Chicago] PHP Fatal error:  Call to undefined function the_ID() in /home/wingovco/public_html/listamed.com.br/blog/wp-content/themes/twentyfifteen/content.php on line 13
+[08-May-2018 11:18:16 America/Chicago] PHP Fatal error:  Call to undefined function the_ID() in /home/wingovco/public_html/listamed.com.br/blog/wp-content/themes/twentyfifteen/content.php on line 13

